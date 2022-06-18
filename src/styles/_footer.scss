@@ -1,0 +1,124 @@
+.footer {
+    &__nav {
+        width: 100%;
+        height: auto;
+
+        background-color: $color-blue;
+    }
+
+    &__navigation {
+        
+        .navigation {
+            display: flex;
+            justify-content: space-around;
+            
+            &__lists {
+            display: flex; 
+            gap: 4rem;
+            padding-left: 0;
+
+            }
+
+            &__list {
+                list-style: none;
+            
+            }
+
+                &__link {
+                display: flex;
+                text-decoration: none;
+                color: $color-white;
+                font-size: 16px;
+                font-weight: 400;
+
+                transition: all .5s;            
+            }
+        }
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        background-color: $color-white;
+        gap: 12rem;
+
+        padding-top: 1rem;
+
+        .contact {
+            font-size: 12px;
+            margin: 2px;
+        }
+
+        .about__title,
+        .resources__title,
+        .gift__title {
+            margin: 2px;
+        }
+
+
+        &__gift {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        &__resources {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__about {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__icons {
+            display: flex;
+            flex-direction: column;
+
+            padding-top: 1rem;
+            gap: 1.5rem;
+
+            .icons {
+                display: flex;
+                flex-direction: row;
+                gap: .5rem;
+
+            }
+
+            .button {
+                display: flex;
+                flex-direction: row;
+                gap: .5rem;
+            }
+            
+        }
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: .5rem;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+}
+.footer {
+    .footer2__nav {
+        background-color: $color-gray-less;
+
+        .navigation__link {
+            display: flex;
+            text-decoration: none;
+            color: $color-black;
+            
+            font-size: 16px;
+            font-weight: 400;
+
+            transition: all .5s;      
+        }
+
+    }
+   
+}

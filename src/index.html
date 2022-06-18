@@ -6,8 +6,618 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sky</title>
     <link rel="stylesheet" href="./styles/styles.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
-    Test
+<header class="header">
+    <div class="header__top top">
+        <p class="top__title">Winter Gear Guide - Our Top Ski Touring and Splitboard Setups. <a class="top__title--link" href="#bottom">Read more</a></p>
+    </div>
+    <div class="header__head container">
+        <div class="logo">
+            <img src="../src/img/icons/image 1.svg" alt="image__absolut">
+            <h3 class="logo__title">Wolf House</h3>
+        </div>
+        <div class="search">
+            <input class="search__input" type="search" placeholder="Search brands, gear and guides" >
+        </div>
+        <div class="client">
+            <div class="client__lang lang">
+                <p class="lang__title">En</p>
+                <img src="./img/icons/Frame.svg" alt="lang" class="lang__image">
+            </div>
+            <div class="client__account account">
+                <div class="account__title">My account</div>
+                <img src="./img/icons/Vector.svg" alt="lang" class="account__image">
+            </div>
+            <div class="client__cashe cashe">
+                <div class="cashe__title">USD</div>
+                <img src="./img/icons/Vector.svg" alt="lang" class="cashe__image">
+            </div>
+            <div class="client__busket busket">
+                <img src="./img/icons/cart.svg" alt="busket" class="busket__image">
+                <p class="busket__count">+3</p>
+            </div>
+        </div>
+    </div>
+    <div class="header__navigation">
+        <nav class="navigation">
+            <ul class="navigation__lists">
+                <li class="navigation__list"><a class="btn__blue" href="#" role="button">Categories</a></li>
+                <li class="navigation__list"><a class="navigation__link" href="">Ski boots</a></li>
+                <li class="navigation__list"><a class="navigation__link" href="">Ski accessories</a></li>
+                <li class="navigation__list"><a class="navigation__link" href="">Apparel</a></li>
+                <li class="navigation__list"><a class="navigation__link" href="">Snowboard shop</a></li>
+                <li class="navigation__list"><a class="navigation__link" href="">Brands</a></li>
+                <li class="navigation__list"><a class="navigation__link" href="">Sale</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header__banner banner">
+        <h1 class="banner__title">New ATOMIC collection with nano-techs.</h1>
+        <h3 class="banner__description">Check our new 2021 collection for freeride.</h3>
+        <button class="btn__white">Button</button>
+    </div>
+</header>   
+<main class="wrapper container">
+    <h4 class="title">Snowboards</h4>
+    <div class="info">
+         <div class="info__title2">
+            <h5>170 Matches found</h5>      
+        </div>
+        <div class="info__view view">
+            <div class="view__title">View</div>
+            <div class="view__count">9</div>
+        </div>
+        <div class="info__sort sort">
+            <div class="sort__title1">Sort By</div>
+            <div class="sort__title2">Most Popular</div>
+        </div>
+    </div>
+    <div class="sections">
+        <form class="section1">
+            <div class="multiselect">
+                <div class="selectBox" onclick="showCheckboxes1()">
+                    <select>
+                        <option>Cattegories</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+                <div id="checkboxes1">
+                    <label for="one">
+                        <input type="checkbox" id="one" />All-Mauntain Snowboards (51)>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <input class="checkbox__view" type="text" placeholder="View more..."/>
+            <div class="multiselect">
+                <div class="selectBox" onclick="showCheckboxes2()">
+                    <select>
+                        <option>Gender</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+                <div id="checkboxes2">
+                    <label for="one">
+                        <input type="checkbox" id="one" />Men's (6)</label>
+                    <label for="two">
+                        <input type="checkbox" id="two"/>Women's (32)</label>
+                    <label for="three">
+                        <input type="checkbox" id="three"/>Unisex (52)</label>
+                </div>
+            </div>
+            <input class="checkbox__view" type="text" placeholder="View more..."/>
+            <div class="multiselect">
+                <div class="selectBox" onclick="showCheckboxes3()">
+                    <select>
+                        <option>Brans</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+                <div id="checkboxes3">
+                    <label for="one">
+                        <input type="checkbox" id="one" />Arbor (19)</label>
+                    <label for="two">
+                        <input type="checkbox" id="two"/>Bataleon (6)</label>
+                    <label for="three">
+                        <input type="checkbox" id="three"/>Capita (14)</label>
+                </div>
+            </div>
+            <input class="checkbox__view" type="text" placeholder="View more..."/>
+            <div class="multiselect">
+                <div class="selectBox" onclick="showCheckboxes4()">
+                    <select>
+                        <option>Snowboards Lenght (cm)</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+                <div id="checkboxes4">
+                    <label for="one">
+                        <input type="checkbox" id="one" />80 to 149 (39)</label>
+                    <label for="two">
+                        <input type="checkbox" id="two"/>150 to 159 (79)</label>
+                    <label for="three">
+                        <input type="checkbox" id="three"/>160 to 169 (36)</label>
+                </div>
+            </div>
+            <input class="checkbox__view" type="text" placeholder="View more..."/>
+            <div class="multiselect">
+                <div class="selectBox" onclick="showCheckboxes5()">
+                    <select>
+                        <option>Snowboards Shape</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+                <div id="checkboxes5">
+                    <label for="one">
+                        <input type="checkbox" id="one" />Directional (39)</label>
+                    <label for="two">
+                        <input type="checkbox" id="two"/>Directional Twin (36)</label>
+                    <label for="three">
+                        <input type="checkbox" id="three"/>True Twin (26)</label>
+                </div>
+            </div>
+            <input class="checkbox__view" type="text" placeholder="View more..."/>
+            <div class="multiselect">
+                <div class="selectBox" onclick="showCheckboxes6()">
+                    <select>
+                        <option>Snowboards Style</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+                <div id="checkboxes6">
+                    <label for="one">
+                        <input type="checkbox" id="one"/>All-Mountain (64)</label>
+                    <label for="two">    
+                        <input type="checkbox" id="two"/>Freeride (22)</label>
+                    <label for="three">
+                        <input type="checkbox" id="three"/>Freestyle (22)</label>
+                </div>
+            </div>
+            <input class="checkbox__view" type="text" placeholder="View more..."/>
+            <div class="multiselect">
+                <div class="selectBox" onclick="showCheckboxes7()">
+                    <select>
+                        <option>Price</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+                <div id="checkboxes7">
+                    <label for="one">
+                        <input type="checkbox" id="one"/>$50.00 to $99.99 (1)</label>
+                    <label for="two">
+                        <input type="checkbox" id="two"/>$100.00 to $199.99 (1)</label>
+                    <label for="three">
+                        <input type="checkbox" id="three"/>$200.00 to $499.99 (52)</label>
+                </div>
+            </div>
+            <input class="checkbox__view" type="text" placeholder="View more..."/>
+            <div class="multiselect">
+                <div class="selectBox" onclick="showCheckboxes8()">
+                    <select>
+                        <option>Snowbord Profile</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+            </div>
+            <hr size="2" width="100%" color="#BFBEBE">
+            <div class="multiselect">
+                <div class="selectBox" onclick="showCheckboxes9()">
+                    <select>
+                        <option>Flex</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+            </div>
+        </form>       
+        <section class="section2__product product">
+            <div class="product">
+                <div class="product__image">
+                    <img src="./img/black.jpg" alt="image absolute">
+                </div>
+            <div class="product__description">
+                    <p> Nightshade Snowboard - Women's - 2019/2020</p> 
+                </div>        
+                <div class="product__price">       
+                    <div class="product__price--new">$398.93</div>
+                    <div class="product__price--old">$499.00</div>
+                    <div class="product__rating">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_gray.svg" alt="image absolute">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="product">
+                <div class="product__image">
+                    <img src="./img/black.jpg" alt="image absolute">
+                </div>
+            <div class="product__description">
+                    <p> Nightshade Snowboard - Women's - 2019/2020</p> 
+                </div>        
+                <div class="product__price">       
+                    <div class="product__price--new">$398.93</div>
+                    <div class="product__price--old">$499.00</div>
+                    <div class="product__rating">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_gray.svg" alt="image absolute">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="product3">
+                <div class="product3__image">
+                    <img src="./img/blue.jpg" alt="image absolute">
+                </div>
+            <div class="product3__description">
+                <h4>Jones</h4>  
+                <p>Twin Sister Snowboard - Women's - 2020/2021</p> 
+                </div> 
+                <div class="product3__price">       
+                    <div class="product3__price--new">$499.95</div>
+                    <div class="product3__rating">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_white.svg" alt="image absolute">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="section3__product product">
+            <div class="product">
+                <div class="product__image">
+                    <img src="./img/white.jpg" alt="image absolute">
+                </div>
+            <div class="product__description">
+                    <p> Backwoods Snowboard - 2020/2021 sdkfjsdkf jksdlkfs kdfk..</p> 
+                </div>        
+                <div class="product__price">       
+                    <div class="product__price--new">$398.93</div>
+                    <div class="product__rating">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_gray.svg" alt="image absolute">
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__image">
+                    <img src="./img/white.jpg" alt="image absolute">
+                </div>
+            <div class="product__description">
+                    <p> Backwoods Snowboard - 2020/2021 sdkfjsdkf jksdlkfs kdfk..</p> 
+                </div>        
+                <div class="product__price">       
+                    <div class="product__price--new">$398.93</div>
+                    <div class="product__rating">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_gray.svg" alt="image absolute">
+                    </div>
+                </div>
+            </div>
+            <div class="product3">
+                <div class="product3__image">
+                    <img src="./img/yellow.jpg" alt="image absolute">
+                </div>
+            <div class="product3__description">
+                <h4>Burton</h4>  
+                <p>Deep Thinker Snowboard - <br>
+                    2020/2021</p> 
+                </div> 
+                <div class="product3__price">       
+                    <div class="product3__price--new">$499.95</div>
+                    <div class="product3__rating">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_white.svg" alt="image absolute">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="section4__product product">
+            <div class="product">
+                <div class="product__image">
+                    <a href="./pages/snowboard.html"><img src="./img/orange.jpg" alt="image absolute"></a>  
+                </div>
+            <div class="product__description">
+                    <p> Nightshade Snowboard - Women's - 2019/2020</p> 
+                </div>        
+                <div class="product__price">       
+                    <div class="product__price--new">$398.93</div>
+                    <div class="product__rating">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_gray.svg" alt="image absolute">
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__image">
+                    <img src="./img/orange.jpg" alt="image absolute">
+                </div>
+            <div class="product__description">
+                    <p> Nightshade Snowboard - Women's - 2019/2020</p> 
+                </div>        
+                <div class="product__price">       
+                    <div class="product__price--new">$398.93</div>
+                    <div class="product__rating">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_blue.svg" alt="image absolute">
+                        <img src="./img/icons/Star_gray.svg" alt="image absolute">
+                    </div>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="banner__image">
+                    <img src="./img/Lake.jpg" alt="image absolute">
+                </div>
+                <div class="banner__title">
+                    <h3>EVO TRIP</h3>
+                    <h5>ADVANTURE TRAVEL PACKAGE</h5>
+                </div>
+                <div class="banner__link">
+                    <a href="">Travel with Us</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="page">
+        Page:
+        <div class="page__count">3</div>
+        of 25
+    </div>
+    <hr size="2" width="100%" color="#C4C4C4">
+    <h3 class="Sale__title">Best Sellers</h3>
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="sellings">
+                    <div class="selling">
+                        <div class="selling__image">
+                            <img src="./img/helmet.jpg" alt="image absolute">
+                        </div>
+                        <div class="selling__title">
+                            <h5>POC Obex Spin Helmet</h5>
+                        </div>
+                        <div class="selling__price">$ 279.95</div>
+                    </div>
+                    <div class="selling">
+                        <div class="selling__image">
+                            <img src="./img/Boots_black.jpg" alt="image absolute">
+                        </div>
+                        <div class="selling__title">
+                            <h5>Rossignol EVO 70 Ski Boots</h5>
+                        </div>
+                        <div class="selling__price">$ 89.99</div>
+                    </div>
+                    <div class="selling">
+                        <div class="selling__image">
+                            <img src="./img/Boots_blue.jpg" alt="image absolute">
+                        </div>
+                        <div class="selling__title">
+                            <h5>Tecnica T 2 Pearl Girl Ski Boots</h5>
+                        </div>
+                        <div class="selling__price">$ 119.95</div>
+                    </div>
+                    <div class="selling">
+                        <div class="selling__image">
+                            <img src="./img/skis.jpg" alt="image absolute">
+                        </div>
+                        <div class="selling__title">
+                            <h5>Rossignol XV Sashimi LG Light</h5>
+                        </div>
+                        <div class="selling__price">$ 599.95</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="sellings">
+                    <div class="selling">
+                        <div class="selling__image">
+                            <img src="./img/helmet.jpg" alt="image absolute">
+                        </div>
+                        <div class="selling__title">
+                            <h5>POC Obex Spin Helmet</h5>
+                        </div>
+                        <div class="selling__price">$ 279.95</div>
+                    </div>
+                    <div class="selling">
+                        <div class="selling__image">
+                            <img src="./img/Boots_black.jpg" alt="image absolute">
+                        </div>
+                        <div class="selling__title">
+                            <h5>Rossignol EVO 70 Ski Boots</h5>
+                        </div>
+                        <div class="selling__price">$ 89.99</div>
+                    </div>
+                    <div class="selling">
+                        <div class="selling__image">
+                            <img src="./img/Boots_blue.jpg" alt="image absolute">
+                        </div>
+                        <div class="selling__title">
+                            <h5>Tecnica T 2 Pearl Girl Ski Boots</h5>
+                        </div>
+                        <div class="selling__price">$ 119.95</div>
+                    </div>
+                    <div class="selling">
+                        <div class="selling__image">
+                            <img src="./img/skis.jpg" alt="image absolute">
+                        </div>
+                        <div class="selling__title">
+                            <h5>Rossignol XV Sashimi LG Light</h5>
+                        </div>
+                        <div class="selling__price">$ 599.95</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                    <div class="sellings">
+                        <div class="selling">
+                            <div class="selling__image">
+                                <img src="./img/helmet.jpg" alt="image absolute">
+                            </div>
+                            <div class="selling__title">
+                                <h5>POC Obex Spin Helmet</h5>
+                            </div>
+                            <div class="selling__price">$ 279.95</div>
+                        </div>
+                        <div class="selling">
+                            <div class="selling__image">
+                                <img src="./img/Boots_black.jpg" alt="image absolute">
+                            </div>
+                            <div class="selling__title">
+                                <h5>Rossignol EVO 70 Ski Boots</h5>
+                            </div>
+                            <div class="selling__price">$ 89.99</div>
+                        </div>
+                        <div class="selling">
+                            <div class="selling__image">
+                                <img src="./img/Boots_blue.jpg" alt="image absolute">
+                            </div>
+                            <div class="selling__title">
+                                <h5>Tecnica T 2 Pearl Girl Ski Boots</h5>
+                            </div>
+                            <div class="selling__price">$ 119.95</div>
+                        </div>
+                        <div class="selling">
+                            <div class="selling__image">
+                                <img src="./img/skis.jpg" alt="image absolute">
+                            </div>
+                            <div class="selling__title">
+                                <h5>Rossignol XV Sashimi LG Light</h5>
+                            </div>
+                            <div class="selling__price">$ 599.95</div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+  
+       
+ 
+        <div class="swiper-scrollbar"></div>
+    </div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+
+    <hr size="2" width="100%" color="#C4C4C4">
+
+    <div class="help">
+        <div class="help__title">Need Help?</div>
+        <div class="help__description">Talk to our Gearheads 24/7 about your needs</div>
+        <div class="btn__blue1">Chat Now</div>
+        <div class="help__phone">
+            <a href="tel:+1-800-409-4502">Or Call: 1-800-409-4502</a>
+        </div>
+    </div>
+
+    <div class="stay">
+        <div class="stay__title">Stay in the know</div>
+        <div class="stay__description">Be the first to see sales & new gear!</div>
+        <legend>Email Address</legend>
+        <div class="stay__email">
+            <input class="search__input" type="search" placeholder="">
+            <div class="btn__blue2">Submit</div>
+        </div>
+    </div>
+    <hr size="2" width="100%" color="#C4C4C4">
+    
+
+</main>  
+<footer class="footer">
+    <div class="footer__nav">
+        <div class="footer__navigation container">
+            <nav class="navigation">
+                <ul class="navigation__lists">
+                    <li class="navigation__list"><a class="navigation__link" href="">Categories</a></li>
+                    <li class="navigation__list"><a class="navigation__link" href="">Ski boots</a></li>
+                    <li class="navigation__list"><a class="navigation__link" href="">Ski accessories</a></li>
+                    <li class="navigation__list"><a class="navigation__link" href="">Apparel</a></li>
+                    <li class="navigation__list"><a class="navigation__link" href="">Snowboard shop</a></li>
+                    <li class="navigation__list"><a class="navigation__link" href="">Brands</a></li>
+                    <li class="navigation__list"><a class="navigation__link" href="">Sale</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>    
+    <div class="contacts container">
+        <div class="contacts__gift">
+            <h4 class="gift__title">Gift Certificates</h4>
+            <p class="contact">e-Gift Certificate</p>
+            <p class="contact">Classic Gift Card</p>
+        </div>
+        <div class="contacts__resources">
+            <h4 class="resources__title">Resources</h4>
+            <p class="contact">Returns</p>
+            <p class="contact">Order Status</p>
+            <p class="contact">Sale Item Policy</p>
+            <p class="contact">Sales Tax Policy</p>
+            <p class="contact">Terms of Use</p>
+            <p class="contact">Privacy Policy</p>
+            <p class="contact">Do Not Sell My Personal Data</p>
+            <p class="contact">International Shipping Policy</p>
+            <p class="contact">Learning Resources</p>
+            <p class="contact">Gift Card Terms & Conditions</p>
+            <p class="contact">Special Group Offers</p>
+        </div>
+        <div class="contacts__about">
+            <h4 class="about__title">About M-SPORT</h4>
+            <p class="contact">About M-SPORT</p>
+            <p class="contact">Press Releases</p>
+            <p class="contact">Group Sales</p>
+            <p class="contact">Land Your Dream Job</p>
+            <p class="contact">Affiliate Program</p>
+            <p class="contact">Accessibility Statement</p>
+        </div>
+        <div class="contacts__icons">
+            <div class="icons">
+                <img src="../src/img/icons/F.svg" alt="image__absolut">
+                <img src="../src/img/icons/twit.svg" alt="image__absolut">
+                <img src="../src/img/icons/YouTube.svg" alt="image__absolut">
+                <img src="../src/img/icons/Instagram.svg" alt="image__absolut">
+            </div>
+            <p class="contact">Download the М-SPORT App</p>
+            <div class="button">
+                <img src="../src/img/googleplay.jpg" alt="image__absolut">
+                <img src="../src/img/appstore.jpg" alt="image__absolut">
+            
+            </div>
+        </div>
+    </div>
+    <div class="logo">
+        <img src="../src/img/logo_footer.jpg" alt="image__absolut">
+        <p class="contact">© M-SPORT.com – All Rights Reserved</p>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script type="module" src="./js/swiper.js"></script>
+<script src="./js/checkbox.js"></script>
 </body>
 </html>
