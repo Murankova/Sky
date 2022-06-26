@@ -168,10 +168,7 @@
             #checkboxes2 label:hover,
             #checkboxes1 label:hover {
                 background-color: #1e90ff;
-            }
-        
-        
-    
+            } 
     
         .section2__product {
             &.product {
@@ -427,8 +424,7 @@
                         color: $color-black;
                         font-size: 16px;
                         font-weight: 600;
-                    }
-                                    
+                    }                 
                 }
             
                 &__rating {
@@ -501,7 +497,6 @@
                 
                 padding-left: .5rem;
 
-
             }
 
             &__price {
@@ -523,14 +518,12 @@
 
     .swiper-button-prev::after {
         color: $color-gray-less;
-
                 
     }
 
     .swiper-button-next::after {
         color: $color-gray-less;
-
-        
+       
     }
 
     .help {
@@ -634,10 +627,7 @@
 
 
                 .checkbox__view {
-                    
-                    padding-right: 4rem;
-            
-                    
+                    padding-right: 4rem;                  
     
                 }
     
@@ -654,10 +644,10 @@
                     }
                 }
 
-                    .product3__rating {
-                        padding-left: 80px;
-                        margin-bottom: 1rem;
-                    }
+                .product3__rating {
+                    padding-left: 80px;
+                    margin-bottom: 1rem;
+                }
             }
 
             .section3__product {
@@ -673,7 +663,6 @@
                     padding-left: 65px;
                     margin-bottom: 1rem;
                 }
-
             }
 
             .section4__product {
@@ -711,7 +700,6 @@
             .selling {
                 width: 15%;
             
-
                 &__image {
                     padding:  0;
                     padding-top: 10px;
@@ -725,20 +713,6 @@
             }
         }
 
-        .swiper-button-prev::after {
-           
-    
-            
-        }
-    
-        .swiper-button-next::after {
-           
-        }
-
-        .help {
-        
-            
-        }
         .stay {
             margin-right: 0;
 
@@ -748,10 +722,7 @@
             &__email {
                 padding-left: 7rem;
             }
-
         }
-
-
     }
 }
 
@@ -760,23 +731,17 @@
         .info {
             gap: 0;   
             padding-left: 12rem;
-         
         }
 
         .sections {
                
             .section1 {
                 width: 23%;
-               
+            
                 font-size: 13px;
 
-
                 .checkbox__view {
-                    
-                    padding-right: .5rem;
-            
-                    
-    
+                    padding-right: .5rem;        
                 }
     
             }
@@ -1011,21 +976,9 @@
             &__email {
                 padding-left: 3rem;
             }
-
         }
     }
-
 }
-
-
-
-
-
-
-
-
-
-
 
 .page {
     .path::after {
@@ -1212,7 +1165,6 @@
                 
                 padding-left: .5rem;
 
-
             }
 
             &__price {
@@ -1234,14 +1186,11 @@
 
     .swiper-button-prev::after {
         color: $color-gray-less;
-
-      
         
     }
 
     .swiper-button-next::after {
         color: $color-gray-less;
-
        
     }
 
@@ -1322,7 +1271,6 @@
             .selling {
                 width: 15%;
             
-
                 &__image {
                     padding:  0;
                     padding-top: 10px;
@@ -1336,20 +1284,6 @@
             }
         }
 
-        .swiper-button-prev::after {
-           
-    
-            
-        }
-    
-        .swiper-button-next::after {
-           
-        }
-
-        .help {
-        
-            
-        }
         .stay {
             margin-right: 0;
 
@@ -1395,8 +1329,6 @@
                     hr {
                         margin: 1rem 0 1rem 0;
                     }
-
-
                 }
             }
 
@@ -1466,11 +1398,6 @@
             }
         }
     
-
-
-
-
-
         .sellings {
             .selling {
                 width: 19%;

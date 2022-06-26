@@ -118,9 +118,7 @@
 
             transition: all .5s;      
         }
-
     }
-   
 }
 @media (max-width: 1024px) {
     .footer {
@@ -129,11 +127,7 @@
 
             justify-content: space-evenly;
         }
-    }
-
-    
-
-
+    } 
 }
 @media (max-width: 768px) {
     .footer {
@@ -145,16 +139,10 @@
                 gap: 2rem;
             }
         }
-
-
         .contacts {
             gap: 1rem;
 
             justify-content: space-evenly;
         }
     }
-
-    
-
-
 }
