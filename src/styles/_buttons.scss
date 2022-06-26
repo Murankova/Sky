@@ -66,3 +66,31 @@
     }
 
 }
+
+@media (max-width: 1024px) {
+    .btn {
+        &__blue1 {
+            margin: .5rem 11.5rem;
+        }
+    }
+
+}
+
+@media (max-width:768px) {
+    .btn {
+        &__blue1 {
+            margin: .5rem 8.5rem;
+        }
+
+        &__blue3 {
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+    
+        }
+
+        &__white2 {
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+        }
+    }
+}

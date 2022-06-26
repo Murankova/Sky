@@ -524,19 +524,13 @@
     .swiper-button-prev::after {
         color: $color-gray-less;
 
-        position: absolute;
-        top: 1728px;
-        left: 65px;
-
-        
+                
     }
 
     .swiper-button-next::after {
         color: $color-gray-less;
 
-        position: absolute;
-        top: 1728px;
-        right: 65px;
+        
     }
 
     .help {
@@ -624,6 +618,414 @@
     }
    
 }
+@media (max-width: 1024px) {
+    .wrapper {
+        .info {
+            gap: 6rem;   
+         
+        }
+
+        .sections {
+               
+            .section1 {
+                width: 23%;
+               
+                font-size: 16px;
+
+
+                .checkbox__view {
+                    
+                    padding-right: 4rem;
+            
+                    
+    
+                }
+    
+            }
+
+            .section2__product {
+                &.product {
+                    width: 23%;
+                }
+                
+                .product {
+                    &__rating {
+                        padding-left: 20px;
+                    }
+                }
+
+                    .product3__rating {
+                        padding-left: 80px;
+                        margin-bottom: 1rem;
+                    }
+            }
+
+            .section3__product {
+                &.product {
+                    width: 23%;    
+                }
+                .product {
+                    &__rating {
+                        padding-left: 65px;
+                    }
+                }
+                .product3__rating {
+                    padding-left: 65px;
+                    margin-bottom: 1rem;
+                }
+
+            }
+
+            .section4__product {
+                &.product {
+                    width: 23%;
+                }
+                .product {
+                    margin-bottom: .7rem;
+                    padding-top: .3rem;
+
+                    &__rating {
+                        padding-left: 65px;
+                    }
+                }
+                .banner {
+                    padding-bottom: 0;
+                    margin-left: 0;
+                    margin-right: .5rem;
+                    margin-bottom: 1rem;
+
+                    &__image {
+                        img {
+                            width: 220px;
+                            height: 170px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .sellings {
+            justify-content: space-evenly;
+
+            .selling {
+                width: 15%;
+            
+
+                &__image {
+                    padding:  0;
+                    padding-top: 10px;
+                    text-align: center;
+
+                    img {
+                        width: 130px;
+                        height: 130px;
+                    }
+                }
+            }
+        }
+
+        .swiper-button-prev::after {
+           
+    
+            
+        }
+    
+        .swiper-button-next::after {
+           
+        }
+
+        .help {
+        
+            
+        }
+        .stay {
+            margin-right: 0;
+
+            legend {
+                padding-left: 7rem;
+            }
+            &__email {
+                padding-left: 7rem;
+            }
+
+        }
+
+
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        .info {
+            gap: 0;   
+            padding-left: 12rem;
+         
+        }
+
+        .sections {
+               
+            .section1 {
+                width: 23%;
+               
+                font-size: 13px;
+
+
+                .checkbox__view {
+                    
+                    padding-right: .5rem;
+            
+                    
+    
+                }
+    
+            }
+
+            .section2__product {
+                &.product {
+                    width: 23%;
+                }
+                
+                .product {
+                    padding-left: 5px;
+
+                    &__image {
+                        img {
+                            width: 45%;
+                        }
+                    }
+
+                    &__description {
+                        font-size: 12px;
+                    }
+
+                    &__price--new {
+                        font-size: 14px;
+                    }
+
+                    &__price--old {
+                        font-size: 14px;
+
+                        padding-left: 5px;
+                    }
+
+                    &__rating {
+                        padding-left: 5px;
+
+                        img {
+                            width: 15%;
+                        }
+                    }
+                }
+
+                .product3 {
+                    padding-left: 5px;
+
+                    &__image {
+                        img {
+                            width: 45%;
+                        }
+                    }
+
+                    &__description {
+                        font-size: 12px;
+                    }
+
+                    &__price--new {
+                        font-size: 14px;
+                    }
+
+
+                    &__rating {
+                        padding-left: 50px;
+
+                        img {
+                            width: 15%;
+                        }
+                    }
+                }
+
+                   
+            }
+
+            .section3__product {
+                &.product {
+                    width: 23%;    
+                }
+                .product {
+                    padding-left: 5px;
+                    padding-top: .5rem;
+
+                    &__image {
+                        padding-top: 3px;
+
+                        img {
+                            width: 50.5%;
+                        }
+                    }
+
+                    &__description {
+                        font-size: 12px;
+
+                        p {
+                            margin: 0;
+                            margin-bottom: 4px;
+                            padding-top: 14px;
+                        }
+                    }
+
+                    &__price--new {
+                        font-size: 14px;
+                    }
+
+                    &__rating {
+                        padding-left: 40px;
+
+                        img {
+                            width: 15%;
+                        }
+                    }
+                }
+
+                .product3 {
+                    padding-left: 5px;
+                    padding-top: .5rem;
+
+                    &__image {
+                        img {
+                            width: 45%;
+                        }
+                    }
+
+                    &__description {
+                        font-size: 12px;
+                    }
+
+                    &__price--new {
+                        font-size: 14px;
+                    }
+
+
+                    &__rating {
+                        padding-left: 40px;
+
+                        img {
+                            width: 15%;
+                        }
+                    }
+                }
+            }
+
+            .section4__product {
+                &.product {
+                    width: 23%;
+                }
+                .product {
+                    padding-left: 5px;
+                    padding-top: .5rem;
+
+                    &__image {
+                        padding-top: 3px;
+
+                        a {
+                            width: 100%;
+                            text-align: center;
+                            }
+                        
+                        img {
+                            width: 45%;
+                        }
+                    }
+
+                    &__description {
+                        font-size: 12px;
+
+                        p {
+                            margin: 0;
+                            margin-bottom: 4px;
+                            padding-top: 14px;
+                        }
+                    }
+
+                    &__price--new {
+                        font-size: 14px;
+                    }
+
+                    &__rating {
+                        padding-left: 40px;
+
+                        img {
+                            width: 15%;
+                        }
+                    }
+                }
+                .banner {
+                    padding-bottom: 0;
+                    margin-left: 0;
+                    margin-right: .5rem;
+                    margin-bottom: 1rem;
+
+                    &__image {
+                        img {
+                            width: 161px;
+                            height: 130px;
+                        }
+                    }
+
+                    &__title {
+                        h3 {
+                            font-size: 15px;
+                            margin: .5em;
+                        }
+
+                        h5 {
+                            font-size: 13px;
+                            margin: .5em;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .sellings {
+            .selling {
+                width: 19%;
+
+                &__image {
+                 
+                    img {
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+
+        .stay {
+            margin-right: 0;
+
+            legend {
+                padding-left: 3rem;
+            }
+            &__email {
+                padding-left: 3rem;
+            }
+
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
 
 .page {
     .path::after {
@@ -694,20 +1096,7 @@
                     height: 35px;
                     width: 35px;
 
-                }
-                &__plus2 {
-                    position: relative;
-                }
-
-                &__plus3 {
-                    position: absolute;
-                    top: 584px;
-                    left: 984.5px;
-                    width: 27px;
-                }
-
-
-                
+                }              
                 &__count {
                     border: 1px solid $color-gray-less;
                     padding: 5px;
@@ -846,19 +1235,14 @@
     .swiper-button-prev::after {
         color: $color-gray-less;
 
-        position: absolute;
-        top: 1259px;
-        left: 65px;
-
+      
         
     }
 
     .swiper-button-next::after {
         color: $color-gray-less;
 
-        position: absolute;
-        top: 1259px;
-        right: 65px;
+       
     }
 
     .help {
@@ -929,3 +1313,191 @@
           
     }
 }
+
+@media (max-width: 1024px) {
+    .page {
+        .sellings {
+            justify-content: space-evenly;
+
+            .selling {
+                width: 15%;
+            
+
+                &__image {
+                    padding:  0;
+                    padding-top: 10px;
+                    text-align: center;
+
+                    img {
+                        width: 130px;
+                        height: 130px;
+                    }
+                }
+            }
+        }
+
+        .swiper-button-prev::after {
+           
+    
+            
+        }
+    
+        .swiper-button-next::after {
+           
+        }
+
+        .help {
+        
+            
+        }
+        .stay {
+            margin-right: 0;
+
+            legend {
+                padding-left: 7rem;
+            }
+            &__email {
+                padding-left: 7rem;
+            }
+
+        }
+
+
+    }
+}
+
+@media (max-width: 768px) {
+    .page {
+        &__product {
+            .image {
+                .image1 {
+                    padding-left: 0;
+                    padding-top: 2rem;
+                    img {
+                        width: 38%;
+
+                        margin-left: 9rem;
+                    }
+                }
+                &__all {
+                    img {
+                        width: 23%;
+                    }
+                }
+
+                hr {
+                    margin: 1rem 0 1rem 0;
+                }
+
+                form {
+                    font-size: 10px;
+
+                    hr {
+                        margin: 1rem 0 1rem 0;
+                    }
+
+
+                }
+            }
+
+            .page__description {
+                p {
+                    font-size: 20px;
+                    margin-bottom: 5px;
+                    margin-top: 5px;
+                }
+
+                .rating {
+                    img {
+                        height: 16px;
+                    }
+                }
+                .price {
+                    font-size: 18px;
+                }
+
+                .size {
+                    h4 {
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        font-size: 13px;
+                    }
+                    &__bord {
+                        padding: 2px;
+                    }
+                }
+                .quantity {
+                    h4 {
+                        font-size: 12px;
+                    }
+                    &__plus1,
+                    &__plus2 {
+                        height: 20px;
+                        width: 20px;
+                    }
+                    &__count {
+                        font-size: 10px;
+                        padding: 2px;
+                    }
+                }
+                .checkboxes__radio {
+                    font-size: 12px;
+                    input {
+                        width: 10px;
+
+                    }
+                }
+                .bay {
+                    font-size: 12px;
+                }
+
+                hr {
+                    margin: .5rem 0 .5rem 0;
+                } 
+
+                .des__checkb {
+                    font-size: 10px;
+                }
+
+                a {
+                    font-size: 10px;
+                }
+              
+            }
+        }
+    
+
+
+
+
+
+        .sellings {
+            .selling {
+                width: 19%;
+
+                &__image {
+                 
+                    img {
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+
+        .stay {
+            margin-right: 0;
+
+            legend {
+                padding-left: 3rem;
+            }
+            &__email {
+                padding-left: 3rem;
+            }
+
+        }
+    }
+}
+
+
+

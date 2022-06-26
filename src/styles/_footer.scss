@@ -122,3 +122,39 @@
     }
    
 }
+@media (max-width: 1024px) {
+    .footer {
+        .contacts {
+            gap: 7rem;
+
+            justify-content: space-evenly;
+        }
+    }
+
+    
+
+
+}
+@media (max-width: 768px) {
+    .footer {
+        .navigation {
+            justify-content: center;
+
+            &__lists {
+                justify-content: center;
+                gap: 2rem;
+            }
+        }
+
+
+        .contacts {
+            gap: 1rem;
+
+            justify-content: space-evenly;
+        }
+    }
+
+    
+
+
+}

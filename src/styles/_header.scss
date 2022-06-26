@@ -213,3 +213,50 @@
 .redlast{
     color: red;
 }
+
+@media (max-width: 1024px) {
+    .header {
+        width: 100%;
+        height: auto; 
+
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        &__head {
+            .search__input {
+                width: 20.3rem;
+            }
+            .client {
+                gap: .5rem;
+            }
+        }
+
+        &__navigation {
+            .navigation {
+                padding-left: 0;
+                justify-content: center;
+
+                &__lists {
+                    padding: 0;
+                    align-items: center;
+                }
+
+                &__list {
+                    padding: 0;
+                }
+            }
+        }
+
+        &__banner {
+            &.banner {
+                padding: 4rem;
+
+                .banner__title {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
